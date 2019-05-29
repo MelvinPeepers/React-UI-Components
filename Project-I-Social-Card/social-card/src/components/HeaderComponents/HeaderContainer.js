@@ -11,6 +11,7 @@ const HeaderContainer = () => {
         <div className="header-image">
         <ImageThumbnail />
         </div>
+        
         <div className="title-container">
         <HeaderTitle />
         
