@@ -1,16 +1,19 @@
 /* All styles for your header Components live here */
 .header-container {
     display: flex;
+    justify-content: space-between;
+    margin: 10% 18%;
 }
+
 
 .logo {
-    width: 5%;
-    height: 100%;
-    margin-top: 10px;
+    width: 50px;
+    height: 55px;
+    margin-top: 14px;
 }
 
-.headerTitle {
-    width: 100%;
+.title-container {
+    width: 93%;
     margin-left: 10px;
 }
 
