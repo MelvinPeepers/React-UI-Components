@@ -9,7 +9,6 @@ const CardContainer = () => {
         <CardBanner />
         <CardContent />
         </div>
-        
     );
 };
 
