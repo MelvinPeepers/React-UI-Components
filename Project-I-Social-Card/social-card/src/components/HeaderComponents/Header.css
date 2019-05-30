@@ -3,11 +3,11 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 76%;
+    width: 75%;
 }
 
 .header-container p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .logo {
@@ -23,6 +23,7 @@
 
 .schoolName {
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .nameDate {
