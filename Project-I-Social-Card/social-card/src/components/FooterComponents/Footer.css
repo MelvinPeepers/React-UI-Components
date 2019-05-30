@@ -1,13 +1,12 @@
 .footer {
     display: flex;
     justify-content: flex-start;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .footer p {
-    margin-left: 25px;
-    padding-right: 25px;
+    margin-top: 20px;
 }
 
 .footer span {
@@ -18,4 +17,5 @@
     text-decoration: none;
     color: grey;
     font-size: 1rem;
+    width: 20%;
 }

@@ -9,32 +9,40 @@
 
 .card-img {
     max-width: 700px;
-    width: 85%;
-    margin-left: 10%;
+    width: 82%;
+    margin-left: 13%;
+    border-radius: 4px;
 }
 
 .card-content {   
     width: 80%;
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 13.6%;
     border: 1px solid lightgrey;
     border-radius: 4px;
-    padding: 0 16px 10px;
+    padding: 0 18px 10px;
 }
 
 .card-content h2 {
     font-size: 1rem;
     margin: 10px 0;
+    color: black;
 }
 
 .card-content p {
     align-self: center;
     font-size: 0.9rem;
     margin: 0 0 10px;
+    color: black;
 }
 
 .card-content a {
     color: grey;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    width: 95%;
 }
