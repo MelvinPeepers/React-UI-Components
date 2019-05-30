@@ -15,19 +15,20 @@
 }
 
 .card-content {   
-    width: 80%;
+    width: 82%;
     display: flex;
     flex-direction: column;
-    margin-left: 13.6%;
+    margin-left: 13%;
     border: 1px solid lightgrey;
     border-radius: 4px;
-    padding: 0 18px 10px;
+    padding-bottom: 10px;
 }
 
 .card-content h2 {
     font-size: 1rem;
     margin: 10px 0;
     color: black;
+    padding-left: 10px;
 }
 
 .card-content p {
@@ -35,11 +36,16 @@
     font-size: 0.9rem;
     margin: 0 0 10px;
     color: black;
+    padding-left: 10px;
 }
 
 .card-content a {
     color: grey;
     text-decoration: none;
+}
+
+.react-link {
+    padding-left: 10px;
 }
 
 a {

@@ -3,7 +3,11 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 75%;
+    width: 76%;
+}
+
+.header-container p {
+    font-size: 0.9rem;
 }
 
 .logo {
