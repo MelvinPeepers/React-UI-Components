@@ -1,0 +1,25 @@
+.action-btn {
+    background-color: #A0001E;
+    color: #fff;
+}
+
+.num-btn {
+    background-color: #fff;
+    
+}
+
+.btn {
+    border: 1px solid #979797;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+}
+
+.sm-btn {
+
+}
+
+.lg-btn {
+
+}

@@ -8,22 +8,22 @@ const App = () => {
   return (
     <div className="container">
       <CalculatorDisplay number="0" />
-      <NumberButton text="clear"/>
-      <ActionButton action="&#xf7;"/>
-      <NumberButton text="7"/>
-      <NumberButton text="8"/>
-      <NumberButton text="9"/>
-      <ActionButton action="&#x2715;"/>
-      <NumberButton text="4"/>
-      <NumberButton text="5"/>
-      <NumberButton text="6"/>
-      <ActionButton action="&#x2212;"/>
-      <NumberButton text="1"/>
-      <NumberButton text="2"/>
-      <NumberButton text="3"/>
-      <ActionButton action="&#x2b;"/>
-      <NumberButton text="clear"/>
-      <ActionButton action="&#x3d;"/>
+      <NumberButton text="clear" buttonStyle="num-btn btn"/>
+      <ActionButton action="&#xf7;" buttonStyle="action-btn btn" />
+      <NumberButton text="7" buttonStyle="num-btn btn" />
+      <NumberButton text="8" buttonStyle="num-btn btn" />
+      <NumberButton text="9" buttonStyle="num-btn btn" />
+      <ActionButton action="&#x2715;" buttonStyle="action-btn btn" />
+      <NumberButton text="4" buttonStyle="num-btn btn" />
+      <NumberButton text="5" buttonStyle="num-btn btn" />
+      <NumberButton text="6" buttonStyle="num-btn btn" />
+      <ActionButton action="&#x2212;" buttonStyle="action-btn btn" />
+      <NumberButton text="1" buttonStyle="num-btn btn" />
+      <NumberButton text="2" buttonStyle="num-btn btn" />
+      <NumberButton text="3" buttonStyle="num-btn btn" />
+      <ActionButton action="&#x2b;" buttonStyle="action-btn btn" />
+      <NumberButton text="clear" buttonStyle="num-btn btn" />
+      <ActionButton action="&#x3d;" buttonStyle="action-btn btn" />
     </div>
   );
 };
