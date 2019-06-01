@@ -1,17 +1,19 @@
 import React from 'react';
 import './Button.css';
+import NumberButton from './NumberButton';
+import ActionButton from './ActionButton';
 
 const ButtonContainer = () => {
     return (
         <div className="button-container">
 
-        </div>
+            <div className="number-button">
+                <NumberButton />
+            </div>
 
-        <div className="action-button">
-
-        </div>
-
-        <div className="number-button">
+            <div className="action-button">
+                <ActionButton />
+            </div>
 
         </div>
 
